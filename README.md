@@ -26,19 +26,19 @@ How the Limitation Language works:
 * The execution environment is made of an array list of 32-bit unsigned integers and a small 32-bit unsigned integer stack.
 * The array initally starts pointed at index 0, with all values being 0. The stack starts empty
 There are 15 operations available in the language:
-* + - increment the pointed value by 1
-* - - decrement the pointed value by 1
-* < - shift the pointer left
-* < - shift the pointer right
-* ^ - shift the pointer to the value of the current pointed value
-* _ - set the pointed value to 0
-* # - copy the pointed value and push to the stack
-* $ - pop the top of the stack to the pointed value
-* ?0 - user input as a number
-* ?a - user input as a string of ASCII characters
-* &0 - output the pointed value as an integer
-* &a - output the pointed value as an ASCII character
-* { - if the pointed value = 0, jump to the next matching '}' moving forwards.
-* } - conditional jump marker
-* : - always jump backwards to the matching '='
-* = - non-conditional jump marker
+* '+' - increment the pointed value by 1
+* '-' - decrement the pointed value by 1
+* '<' - shift the pointer left
+* '<' - shift the pointer right
+* '^' - shift the pointer to the value of the current pointed value
+* '_' - set the pointed value to 0
+* '#' - copy the pointed value and push to the stack
+* '$' - pop the top of the stack to the pointed value
+* '?0' - user input as a number
+* '?a' - user input as a string of ASCII characters
+* '&0' - output the pointed value as an integer
+* '&a' - output the pointed value as an ASCII character
+* '{' - if the pointed value = 0, jump to the next matching '}' moving forwards.
+* '}' - conditional jump marker
+* ':' - always jump backwards to the matching '='
+* '=' - non-conditional jump marker
