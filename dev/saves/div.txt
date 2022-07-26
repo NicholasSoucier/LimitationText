@@ -1,0 +1,4 @@
+?0>?0#   //Get Two numbers
+==-<{->{:}>+<$#:}   //Use stack to continually subtract, placing amount of subtractions into array[3]
+>>&0   //Output the amount of times subtraction occured.
+

@@ -1,0 +1,4 @@
+?a //Get a character string
+=>{:} //Go to the end of the string
+?0^ //Get input as integer and move cursor to position
+&a //Output character at position

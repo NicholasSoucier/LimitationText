@@ -1,0 +1,15 @@
+//A Program to count down a number from itself to 0
+//Prints a space between each number
+
+//[SPACE] = 32
+++++++++++++++++++++++++++++++++>
+//Ask for a number
+?0
+=
+{
+&0<&a>-
+:}&0
+
+
+
+

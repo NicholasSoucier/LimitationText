@@ -1,0 +1,10 @@
+//Simple bartender cipher
+
+>>?a   //Read character string
+=<{:}>   //Go back to start of string
+=
+ &a>>{:}   //Print every second character
+=
+ <&a<{:}   //Print every second character going backwards
+
+

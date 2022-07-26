@@ -1,0 +1,9 @@
+//Program to get the average of 'n' integers.
+
+#=>?0{>$+#<:}<   //Store 'n' integers in index[1] - index[n+1], count n in stack
+==<{+>-{:}<:}   //Right-Left addition
+>>$   //Put stack counter into array, set up for division
+#   //Divisor to stack
+==-<{->{:}>+<$#:}   //Divide the total of the addition by the divisor
+>>&0   //Output the average!
+
