@@ -1,0 +1,5 @@
+?0>?0<   //Get two numbers
+=#>{->$=->+<{:}   //Use stack to continually add second number into first number 'seccond number' amount of times
+<<:}
+>>&0   //Print result
+

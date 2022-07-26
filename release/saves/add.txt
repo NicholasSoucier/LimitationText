@@ -1,0 +1,9 @@
+//A Program to add two numbers together!
+?0>?0  //Get two numbers
+=      //Start a loop
+{
+-<     //Decrement n2
++>     //Increment n1
+:
+}
+<&0    //Print n1

@@ -1,0 +1,21 @@
+//Program to test if number 1 is greater than number 2
+
+//READ T and F into stack
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#_		//Push F onto stack
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#_  //Push T onto stack
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#_		//Push F onto stack
+?0>?0<   //Read num1 and num2 in arr[0] and arr[1]
+{   //Pass if n1=0
+ =   //Start new non-con loop
+ ->-   //Decrement n2 and n1
+ {   //If n2 = 0, skip
+  <{   //If n1 = 0, skip
+   :   //n1>0 and n2>0, loop back 
+  }
+  >>$   //n1 is not g.t. n2, perform first push (results in F)
+ }
+ >$   //n1 is g.t. n2, perform first push (results in T) OR perform second push
+}
+>>$   //n1 is not g.t. n2, perform first push (results in F) OR perform second push OR perform third push
+&a   //print result (T or F)
+
